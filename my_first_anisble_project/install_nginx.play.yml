@@ -1,5 +1,5 @@
 - name: Install Nginx and start it
-  hosts: server
+  hosts: all
   become: yes
   roles:
     - install_services
